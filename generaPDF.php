@@ -85,7 +85,7 @@ if (empty($fila->url)) {
 
     $sql = 'UPDATE resultados SET url = ? WHERE id_usuario = ?';
     $statement = $conn->prepare($sql);
-    $statement->bind_param('is', $folioQuery, $fila->url);
+    $statement->bind_param('is', $fila->url, $folioQuery);
     $result = $statement->execute();
     if (empty($result)) {
         die('No se pudo actualizar la base de datos');
