@@ -37,6 +37,6 @@ Implementación de ejemplo para
 
 ## Demostración
 
-![ss1](/Users/williamentriken/Developer/mds-certificados/ss1.png)
+![ss1](./ss1.png)
 
-![ss2](/Users/williamentriken/Developer/mds-certificados/ss2.png)
+![ss2](./ss2.png)
